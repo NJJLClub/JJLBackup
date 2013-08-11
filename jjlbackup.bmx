@@ -12,7 +12,7 @@ Rem
 	
 	
 EndRem
-Strict ' This prevents us from using mispelled variables by accident, very helpful
+Strict ' This prevents us from using misspelled variables by accident, very helpful
 
 
 Local filename$ = "to_be_backed_up.txt"
@@ -73,7 +73,7 @@ CloseStream file
 ' We now copy the SOURCE files to the destination directory
 Local result = Proceed("Proceed to Copy files to " + destination_folder$ )
 If ( Not result ) Then 
-	Notify("Copy Operation was canceled by you.")
+	Notify("Copy Operation was cancelled by you.")
 	End
 EndIf
 
