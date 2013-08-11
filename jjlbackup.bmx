@@ -1,6 +1,8 @@
 Rem
 
-	Backup Software
+	Backup Software - August 10th 2013
+	Author: James Laderoute
+	
 	
 	User provides an input list of the source folders.
 		Comment lines can be provided using the # at the beginning of the line
